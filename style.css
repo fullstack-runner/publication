@@ -13,13 +13,7 @@ body {
 	grid-template-rows: repeat(30, 1fr);
 	gap: 30px;
 }
-.pub1,
-.pub2 {
-	position: relative;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
+
 
 .pub1,
 .pub2,
@@ -30,11 +24,16 @@ body {
 .pub7,
 .pub8,
 .pub9 {
+	position: relative;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	padding-block: 10px;
 	grid-column: 4/15;
+	a{
+		padding-block: 10px;
+	}
+		
 }
 .pub1 {
 	grid-row: 9/10;
