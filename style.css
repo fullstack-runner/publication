@@ -28,7 +28,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding-block: 10px;
+/* 	padding-block: 10px; */
 	grid-column: 4/15;
 	a{
 		padding-block: 10px;
