@@ -81,7 +81,7 @@ body {
 	transform: translateX(-50%);
 	top: 20%;
 	transition: opacity 0.5s;
-	/* display: none; */
+	display: none;
 	opacity: 0;
 }
 
@@ -98,30 +98,39 @@ body {
 }
 
 .pub1:hover::before{
+	display: block;
     background-image: url('./344723316_674133884519242_6442769809262835825_n.jpg');
 }
 .pub2:hover::before {
+	display: block;
 	background-image: url('./344723316_674133884519242_6442769809262835825_n.jpg');
 }
 .pub3:hover::before {
+	display: block;
 	background-image: url('./344723316_674133884519242_6442769809262835825_n.jpg');
 }
 .pub4:hover::before {
+	display: block;
 	background-image: url('./344723316_674133884519242_6442769809262835825_n.jpg');
 }
 .pub5:hover::before {
+	display: block;
 	background-image: url('./344723316_674133884519242_6442769809262835825_n.jpg');
 }
 .pub6:hover::before {
+	display: block;
 	background-image: url('./344723316_674133884519242_6442769809262835825_n.jpg');
 }
 .pub7:hover::before {
+	display: block;
 	background-image: url('./344723316_674133884519242_6442769809262835825_n.jpg');
 }
 .pub8:hover::before {
+	display: block;
 	background-image: url('./344723316_674133884519242_6442769809262835825_n.jpg');
 }
 .pub9:hover::before {
+	display: block;
 	background-image: url('./344723316_674133884519242_6442769809262835825_n.jpg');
 }
 
